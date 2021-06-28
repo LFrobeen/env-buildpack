@@ -10,5 +10,6 @@ BUILD_DIR="${1:-}"
 ENV_DIR="${3:-}"
 
 echo EEEEEE $ENV_DIR
+env
 
 exportVariables "$BUILDPACK_HOME" "$BUILD_DIR" "$ENV_DIR"
